@@ -19,7 +19,7 @@ To run the program, execute the `MainGSMiner.java` file. This file is the entry 
 
 In IntelliJ IDEA:
 1. Right-click on the `MainGSMiner.java` file.
-2. Select **Run 'MainISMiner'** from the context menu.
+2. Select **Run 'MainGSMiner'** from the context menu.
 
 Alternatively, you can use the **Run** button in the IDE toolbar after opening `MainGSMiner.java`.
 
