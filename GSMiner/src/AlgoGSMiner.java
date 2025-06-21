@@ -3,6 +3,8 @@ import java.text.NumberFormat;
 import java.util.*;
 
 public class AlgoGSMiner {
+	// minimum threshold for JS divergence
+	private static double minJS = 0.5;
 
 	private static final double LN2 = Math.log(2);
 
@@ -232,7 +234,7 @@ public class AlgoGSMiner {
 
 		if (q2 >= q1) {
 			// entropyGain(p2D,q2D) >= 0 &&
-			if (entropyGain(p2D,q2D) >= 0 && js >= 0.5) {
+			if (entropyGain(p2D,q2D) >= 0 && js >= minJS) {
 				if (ParametersSetting.OUTPUT_PATTERNS) {
 					saveSequencePattern(prefix, prefixSTPSet, prefixProbList, itemset, q2, candidateSTP, js);
 					patternCount++;
