@@ -25,6 +25,6 @@ Alternatively, you can use the **Run** button in the IDE toolbar after opening `
 
   ### Step 3: Adjust the threshold
 
-Since the algorithm can be a parameter-free method, it is not necessary to adust the threshold. If you would like adjust the JS divergence threshold, you can open `AlgoGSMiner.java` and find
+Since the method of the algorithm can be parameter-free, it is not necessary to adust the threshold. If you would like adjust the JS divergence threshold, you can open `AlgoGSMiner.java` and find
 
 - **minJS**: the threshold for the JS divergence. The default value is 0.5.
